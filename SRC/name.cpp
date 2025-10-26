@@ -136,7 +136,7 @@ private:
     }
 };
 int main(){
-    Mat plansza = imread("C:/Users/adria/OneDrive/Pulpit/sudoku.png");
+    Mat plansza = imread("C:/Users/adria/OneDrive/Pulpit/sudoku5.jpg");
     if (plansza.empty()) {
         cerr << "Nie można wczytać obrazu!\n"; return -1; 
     }

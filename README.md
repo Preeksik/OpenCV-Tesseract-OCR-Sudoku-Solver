@@ -26,10 +26,10 @@ solves the puzzle, and overlays the solution back on the image.
 
 ### Testcase 1
 Input:
-![Sudoku Input 1](testcase1/sudoku-1.jpg)
+![Sudoku Input 1](testcase1/sudoku-1.png)
 
 Output:
-![Solved Sudoku 1](Testcases/testcase1/sudoku-solution-1.jpg)
+![Solved Sudoku 1](Testcases/testcase1/sudoku-solution-1.png)
 
 [➡️ Zobacz więcej plików testowych](Testcases/testcase1)
 

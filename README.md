@@ -27,20 +27,20 @@ solves the puzzle, and overlays the solution back on the image.
 ### 🧮 Testcase 1
 
 **Input:**
-![Sudoku Input 1](testcase1/sudoku_1.png)
+![Sudoku Input 1](testcase1/sudoku%201.png)
 
 **Output:**
-![Sudoku Solution 1](testcase1/sudoku_solution_1.png)
+![Sudoku Solution 1](testcase1/sudoku%20solution%201.png)
 
 ---
 
 ### 🧮 Testcase 2
 
 **Input:**
-![Sudoku Input 2](testcase2/sudoku_2.jpg)
+![Sudoku Input 2](testcase2/sudoku%202.jpg)
 
 **Output:**
-![Sudoku Solution 2](testcase2/sudoku_solution_2.png)
+![Sudoku Solution 2](testcase2/sudoku%20solution%202.png)
 
 ---
 

@@ -22,13 +22,25 @@ solves the puzzle, and overlays the solution back on the image.
 
 ---
 
-## 🖼️ Example Testcases
+## 🧩 Example Testcases
 
-Located in `/Testcases` folder:
+### Testcase 1
+Input:
+![Sudoku Input 1](Testcases/testcase1/input.jpg)
 
-| Input Image | Output |
-|-------------|--------|
-| ![Sudoku](Testcases/sudoku1.png) | _(solution screenshot coming soon)_ |
+Output:
+![Solved Sudoku 1](Testcases/testcase1/output.jpg)
+
+[➡️ Zobacz więcej plików testowych](Testcases/testcase1)
+
+---
+
+### Testcase 2
+Input:
+![Sudoku Input 2](Testcases/testcase2/input.jpg)
+
+Output:
+![Solved Sudoku 2](Testcases/testcase2/output.jpg)
 
 ---
 

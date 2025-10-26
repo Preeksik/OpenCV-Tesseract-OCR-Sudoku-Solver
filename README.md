@@ -24,23 +24,23 @@ solves the puzzle, and overlays the solution back on the image.
 
 ## 🧩 Example Testcases
 
-### Testcase 1
-Input:
-![Sudoku Input 1](testcase1/sudoku-1.png)
+### 🧮 Testcase 1
 
-Output:
-![Solved Sudoku 1](Testcases/testcase1/sudoku-solution-1.png)
+**Input:**
+![Sudoku Input 1](testcase1/sudoku_1.png)
 
-[➡️ Zobacz więcej plików testowych](Testcases/testcase1)
+**Output:**
+![Sudoku Solution 1](testcase1/sudoku_solution_1.png)
 
 ---
 
-### Testcase 2
-Input:
-![Sudoku Input 2](Testcases/testcase2/input.jpg)
+### 🧮 Testcase 2
 
-Output:
-![Solved Sudoku 2](Testcases/testcase2/output.jpg)
+**Input:**
+![Sudoku Input 2](testcase2/sudoku_2.jpg)
+
+**Output:**
+![Sudoku Solution 2](testcase2/sudoku_solution_2.png)
 
 ---
 

@@ -79,6 +79,7 @@ static bool siatka_sudoku(const Mat& imgGray, vector<Point2f>& quad) {
     quad = kolejnosc_rogow(corners);
     return true;
 }
+
 static char rozpoznanie_cyfry(const Mat& cellBGR) {
     Mat gray; cvtColor(cellBGR, gray, COLOR_BGR2GRAY);
     Mat blur; GaussianBlur(gray, blur, Size(3, 3), 0);
@@ -135,10 +136,14 @@ private:
         return true;
     }
 };
-int main(){
-    Mat plansza = imread("C:/Users/adria/OneDrive/Pulpit/sudoku5.jpg");
+int main(int argc, char** argv){
+    string path = "testcase1/sudoku 1.png";
+    if(argc > 1){
+        path = argv[1];
+    }
+    Mat plansza = imread(path);
     if (plansza.empty()) {
-        cerr << "Nie można wczytać obrazu!\n"; return -1; 
+        cerr << "Nie mozna wczytac obrazu!\n"; return -1; 
     }
     if (!initTesseract()) return -1;
     Mat szary; cvtColor(plansza, szary, COLOR_BGR2GRAY);

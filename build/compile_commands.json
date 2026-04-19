@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/adria/OneDrive/Pulpit/SudokuSolver/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/msys64/ucrt64/bin/../include/leptonica -IC:/msys64/ucrt64/bin/../include/libpng16 -IC:/msys64/ucrt64/bin/../include/webp -IC:/msys64/ucrt64/bin/../include/openjpeg-2.5 -isystem C:/msys64/ucrt64/include/opencv4 -g -std=gnu++17 -o CMakeFiles\\SudokuSolver.dir\\src\\main.cpp.obj -c C:\\Users\\adria\\OneDrive\\Pulpit\\SudokuSolver\\src\\main.cpp",
+  "file": "C:/Users/adria/OneDrive/Pulpit/SudokuSolver/src/main.cpp",
+  "output": "C:/Users/adria/OneDrive/Pulpit/SudokuSolver/build/CMakeFiles/SudokuSolver.dir/src/main.cpp.obj"
+}
+]

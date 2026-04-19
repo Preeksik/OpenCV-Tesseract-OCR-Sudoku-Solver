@@ -3,16 +3,13 @@ project(SudokuSolver)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# Szukamy OpenCV (to akurat działa normalnie)
 find_package(OpenCV REQUIRED)
 
-# Szukamy Tesseracta przez PkgConfig (sposób MSYS2)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(Tesseract REQUIRED tesseract)
 
 add_executable(SudokuSolver src/main.cpp)
 
-# Dodajemy nagłówki Tesseracta i linkujemy wszystko
 target_include_directories(SudokuSolver PRIVATE ${Tesseract_INCLUDE_DIRS})
 target_link_libraries(SudokuSolver PRIVATE 
     ${OpenCV_LIBS} 

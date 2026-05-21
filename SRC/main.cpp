@@ -336,12 +336,21 @@ int main(int argc, char** argv) {
     }
 
     imwrite("Rozwiazanie.png", Odp);
-    cout << "\nZapisano rozwiązanie do Rozwiazanie.png\n";
+    cout << "\n✅ Zapisano rozwiązanie do Rozwiazanie.png\n";
 
-    imshow("Plansza oryginalna", imread(path));
-    imshow("Rozwiązanie Sudoku", Odp);
+    Mat plansza_oryg = imread(path);
+    Mat odp_scaled, plansza_scaled;
+
+    int display_size = 600;
+    resize(Odp, odp_scaled, Size(display_size, display_size), 0, 0, INTER_LINEAR);
+    resize(plansza_oryg, plansza_scaled, Size(display_size, display_size), 0, 0, INTER_LINEAR);
+
+    namedWindow("Plansza oryginalna",  WINDOW_NORMAL);
+    namedWindow("Rozwiązanie Sudoku",  WINDOW_NORMAL);
+    resizeWindow("Plansza oryginalna", display_size, display_size);
+    resizeWindow("Rozwiązanie Sudoku", display_size, display_size);
+
+    imshow("Plansza oryginalna", plansza_scaled);
+    imshow("Rozwiązanie Sudoku", odp_scaled);
     waitKey(0);
-
-    cleanupTesseract();
-    return 0;
 }
